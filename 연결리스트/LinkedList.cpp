@@ -101,7 +101,7 @@ public:
 	}
 
 	void erase(int position) { // LinkedList의 position 위치의 노드를 삭제하는 erase 함수
-		if (position > ListSize) { // 현재 LinkedList 노드의 총 개수 + 1보다 position이 큰 경우 return
+		if (position > ListSize) { // 현재 LinkedList 노드의 총 개수보다 position이 큰 경우 return
 			cout << "위치를 다시 설정해주세요" << endl;
 			return;
 		}
